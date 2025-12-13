@@ -2,7 +2,6 @@
 #start pvp grace period
 function sg:game/grace/start
 
-#TODO:
 #VFX
 summon lightning_bolt 0 94 0
 execute as @a at @s run playsound block.anvil.place ambient @s ~ ~ ~ 0.75

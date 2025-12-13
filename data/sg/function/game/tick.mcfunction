@@ -12,9 +12,8 @@ execute unless score $CurrentPlayers win = $ExpectedPlayers win run function sg:
 #prevent combat logging
 execute as @a[scores={combatTimer=1..}] run scoreboard players remove @s combatTimer 1
 
-#TODO:
 #out of bounds
-#execute as @a[tag=SGPlaying,gamemode=!spectator] run function sg:game/out_of_bounds/check
+execute as @a[tag=SGPlaying,gamemode=!spectator] run function sg:game/out_of_bounds/check
 
 #prevent dead players from being respawned
 execute as @a[tag=SGDeadPlayer,gamemode=!spectator,tag=!SG.Bypass_Safety] run function sg:general/safety/respawn
@@ -22,9 +21,6 @@ execute as @a[tag=SGDeadPlayer,gamemode=!spectator,tag=!SG.Bypass_Safety] run fu
 #rotate countdown timer
 execute if score $CountdownTimer.State timers matches 1.. run function sg:game/start_countdown/tick_timer
 
-#TODO:
 #map events
-
-#TODO:
-#death barrier
-#execute as @a[predicate=sg:game/death_barrier,gamemode=!spectator] run function sg:game/death_barrier/kill
+#guapo
+execute as @e[type=pufferfish,tag=SGGuapo.Game,limit=1] run data merge entity @s {PuffState:2}
