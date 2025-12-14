@@ -45,7 +45,6 @@ scoreboard objectives add value trigger
 
 #game
 scoreboard objectives add platformVar dummy
-#TODO:
 execute unless score $Radius platformVar matches 1.. run scoreboard players set $Radius platformVar 24
 scoreboard objectives add win dummy
 scoreboard objectives add matchID dummy
