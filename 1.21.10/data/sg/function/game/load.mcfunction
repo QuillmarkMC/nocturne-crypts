@@ -49,5 +49,5 @@ gamerule showDeathMessages true
 gamerule naturalRegeneration true
 gamerule keepInventory false
 difficulty hard
-time set 6000
+time set 18000
 scoreboard players set $GameOver win 0
