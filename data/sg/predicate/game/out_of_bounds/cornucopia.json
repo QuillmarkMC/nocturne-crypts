@@ -8,16 +8,177 @@
         "location": {
           "position": {
             "x": {
-              "min": 0.0,
-              "max": 0.0
+              "min": 4.5,
+              "max": 5.5
             },
             "y": {
-              "min": 0.0,
-              "max": 0.0
+              "min": 81.0,
+              "max": 97.0
+            },
+            "z": {
+              "min": -0.5,
+              "max": 1.5
+            }
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "min": 3.5,
+              "max": 4.5
+            },
+            "y": {
+              "min": 81.0,
+              "max": 97.0
+            },
+            "z": {
+              "min": -2.5,
+              "max": 3.5
+            }
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "min": 1.5,
+              "max": 3.5
+            },
+            "y": {
+              "min": 81.0,
+              "max": 97.0
+            },
+            "z": {
+              "min": -3.5,
+              "max": 4.5
+            }
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "min": -0.5,
+              "max": 1.5
+            },
+            "y": {
+              "min": 81.0,
+              "max": 97.0
+            },
+            "z": {
+              "min": -4.5,
+              "max": 5.5
+            }
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "min": -2.5,
+              "max": -0.5
+            },
+            "y": {
+              "min": 81.0,
+              "max": 97.0
+            },
+            "z": {
+              "min": -3.5,
+              "max": 4.5
+            }
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "min": -3.5,
+              "max": -2.5
+            },
+            "y": {
+              "min": 81.0,
+              "max": 97.0
+            },
+            "z": {
+              "min": -2.5,
+              "max": 3.5
+            }
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "min": -4.5,
+              "max": -3.5
+            },
+            "y": {
+              "min": 81.0,
+              "max": 97.0
+            },
+            "z": {
+              "min": -0.5,
+              "max": 1.5
+            }
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "min": -6.0,
+              "max": 7.0
+            },
+            "y": {
+              "min": 86.0,
+              "max": 97.0
             },
             "z": {
               "min": 0.0,
-              "max": 0.0
+              "max": 5.0
             }
           },
           "dimension": "minecraft:overworld"
