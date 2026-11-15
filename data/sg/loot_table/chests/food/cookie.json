@@ -1,0 +1,102 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 5,
+                                "saturation": 6,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.cookie.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.cookie.lore","color":"blue","italic": false}
+                            ],
+                            "item_model": "nc:halloween_cookie_1",
+                            "custom_data": {
+                                "cookie": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 5,
+                                "saturation": 6,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.cookie.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.cookie.lore","color":"blue","italic": false}
+                            ],
+                            "item_model": "nc:halloween_cookie_2",
+                            "custom_data": {
+                                "cookie": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 5,
+                                "saturation": 6,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.cookie.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.cookie.lore","color":"blue","italic": false}
+                            ],
+                            "item_model": "nc:halloween_cookie_3",
+                            "custom_data": {
+                                "cookie": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 5,
+                                "saturation": 6,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.cookie.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.cookie.lore","color":"blue","italic": false}
+                            ],
+                            "item_model": "nc:halloween_cookie_4",
+                            "custom_data": {
+                                "cookie": true
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

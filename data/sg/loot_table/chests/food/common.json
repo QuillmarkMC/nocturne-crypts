@@ -7,20 +7,88 @@
                 {
                     "type": "minecraft:item",
                     "weight": 100,
-                    "name": "minecraft:cookie",
-                    "modifier": {
-                        "type": "minecraft:set_count",
-                        "count": {
-                            "type": "minecraft:uniform",
-                            "min": 1,
-                            "max": 2
+                    "name": "minecraft:bread",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition": 2,
+                                    "saturation":0.4,
+                                    "can_always_eat": false
+                                },
+                                "item_name": {"translate": "sg.game.item.candy.name"},
+                                "item_model": "nc:candy"
+                            }
                         }
-                    }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 100,
-                    "name": "minecraft:glow_berries",
+                    "name": "minecraft:bread",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition": 2,
+                                    "saturation":0.4,
+                                    "can_always_eat": false
+                                },
+                                "item_name": {"translate": "sg.game.item.apple_core.name"},
+                                "item_model": "nc:apple_core"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition": 2,
+                                    "saturation":0.4,
+                                    "can_always_eat": false
+                                },
+                                "item_name": {"translate": "sg.game.item.smore.name"},
+                                "item_model": "nc:smore"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:salmon",
                     "modifier": {
                         "type": "minecraft:set_count",
                         "count": {
@@ -34,19 +102,6 @@
                     "type": "minecraft:item",
                     "weight": 100,
                     "name": "minecraft:cod",
-                    "modifier": {
-                        "type": "minecraft:set_count",
-                        "count": {
-                            "type": "minecraft:uniform",
-                            "min": 1,
-                            "max": 2
-                        }
-                    }
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 100,
-                    "name": "minecraft:salmon",
                     "modifier": {
                         "type": "minecraft:set_count",
                         "count": {

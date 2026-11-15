@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "bread",
+                    "components": {
+                        "custom_data": {
+                            "yellow_lollipop": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sg:game/food/yellow_lollipop"
+    }
+}

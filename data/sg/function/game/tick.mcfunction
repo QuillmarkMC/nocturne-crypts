@@ -24,3 +24,6 @@ execute if score $CountdownTimer.State timers matches 1.. run function sg:game/s
 #map events
 #guapo
 execute as @e[type=pufferfish,tag=SGGuapo.Game,limit=1] run data merge entity @s {PuffState:2}
+
+#food effects
+function sg:game/food/tick_effects

@@ -6,12 +6,12 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 100,
+                    "weight": 50,
                     "name": "minecraft:cod"
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 100,
+                    "weight": 50,
                     "name": "minecraft:salmon"
                 },
                 {
@@ -28,6 +28,29 @@
                     "type": "minecraft:item",
                     "weight": 25,
                     "name": "minecraft:cooked_salmon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 25,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 2,
+                                "saturation": 0.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.ghost_fish.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.ghost_fish.lore","color":"blue","italic": false}
+                            ],
+                            "item_model": "nc:ghost_fish",
+                            "custom_data": {
+                                "ghost_fish": true
+                            }
+                        }
+                    }
                 },
                 {
                     "type": "minecraft:item",

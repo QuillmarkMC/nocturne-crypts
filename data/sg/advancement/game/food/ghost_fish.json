@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "bread",
+                    "components": {
+                        "custom_data": {
+                            "ghost_fish": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sg:game/food/ghost_fish"
+    }
+}
