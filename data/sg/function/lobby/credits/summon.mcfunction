@@ -88,8 +88,6 @@ summon interaction 35601.49977619194 79.0 35513.593020775574 {width:0.75f,height
 ##Tech/Soccby Table Deco
 #table map
 summon minecraft:item_display 35601.11622718148 80.503173828125 35515.125 {Tags:["SGLobbyCredits"],fall_distance: 0.0d, item: {components: {"minecraft:item_model": "lobby:table_map"}, count: 1, id: "minecraft:phantom_membrane"}, transformation: {left_rotation: [0.0f, -0.07845911f, 0.0f, 0.9969174f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.9999998f, 0.99999994f, 0.9999998f], translation: [0.0f, 0.0f, 0.0f]}}
-#snow globe
-summon minecraft:item_display 35602.48996506821 80.5 35515.476636564366 {Tags:["SGLobbyCredits"],fall_distance: 0.0d, item: {components: {"minecraft:item_model": "lobby:snow_globe"}, count: 1, id: "minecraft:phantom_membrane"}, transformation: {left_rotation: [0.0f, -0.11320323f, 0.0f, 0.9935719f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 1.0000002f, 1.0000001f], translation: [0.0f, 0.0f, 0.0f]}}
 
 ##Hexxi
 summon minecraft:text_display 35604.2430337263 81.25 35516.58679095331 {Tags:["SGLobbyCredits"],alignment: "center", background: 1073741824, billboard: "center", default_background: 0b, line_width: 200, see_through: 0b, shadow: 0b, text: {"translate":"sg.lobby.credits.name.hexxi"}, text_opacity: 255}
