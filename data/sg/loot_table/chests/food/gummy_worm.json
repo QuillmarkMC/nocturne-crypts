@@ -18,7 +18,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.gummy_worm.name"},
                             "lore":[
-                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
                             ],
                             "item_model": "nc:gummy_worm_1",
                             "custom_data": {
@@ -41,7 +42,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.gummy_worm.name"},
                             "lore":[
-                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
                             ],
                             "item_model": "nc:gummy_worm_2",
                             "custom_data": {
@@ -64,7 +66,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.gummy_worm.name"},
                             "lore":[
-                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
                             ],
                             "item_model": "nc:gummy_worm_3",
                             "custom_data": {
@@ -87,7 +90,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.gummy_worm.name"},
                             "lore":[
-                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
                             ],
                             "item_model": "nc:gummy_worm_4",
                             "custom_data": {

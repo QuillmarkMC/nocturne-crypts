@@ -16,14 +16,29 @@
                     "type": "item",
                     "weight": 25,
                     "name": "apple",
-                    "modifier": {
-                        "type": "set_count",
-                        "count": {
-                            "type": "uniform",
-                            "min": 1,
-                            "max": 2
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition": 4,
+                                    "saturation":2.4,
+                                    "can_always_eat": false
+                                },
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE025","color":"white","italic": false}
+                                ]
+                            }
                         }
-                    },
+                    ],
                     "condition": {
                         "type": "location_check",
                         "predicate": {
@@ -67,6 +82,9 @@
                                     "can_always_eat": false
                                 },
                                 "item_name": {"translate": "sg.game.item.apple_pie.name"},
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE024\uE025\uE025\uE025","color":"white","italic": false}
+                                ],
                                 "item_model": "nc:apple_pie"
                             }
                         }
@@ -127,6 +145,9 @@
                                     "can_always_eat": false
                                 },
                                 "item_name": {"translate": "sg.game.item.corn.name"},
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE024\uE025\uE025\uE025","color":"white","italic": false}
+                                ],
                                 "item_model": "nc:corn"
                             }
                         }
@@ -187,6 +208,9 @@
                                     "can_always_eat": false
                                 },
                                 "item_name": {"translate": "sg.game.item.pumpkin_pie.name"},
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE024\uE025\uE025\uE025","color":"white","italic": false}
+                                ],
                                 "item_model": "nc:pumpkin_pie"
                             }
                         }
@@ -247,6 +271,9 @@
                                     "can_always_eat": false
                                 },
                                 "item_name": {"translate": "sg.game.item.pumpkin_pie.name"},
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE024\uE025\uE025\uE025","color":"white","italic": false}
+                                ],
                                 "item_model": "nc:pumpkin_pie"
                             }
                         }

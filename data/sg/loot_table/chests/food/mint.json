@@ -18,7 +18,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.red_mint.name"},
                             "lore":[
-                                {"translate":"sg.game.item.mint.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.mint.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
                             ],
                             "item_model": "nc:red_mint",
                             "custom_data": {
@@ -41,7 +42,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.green_mint.name"},
                             "lore":[
-                                {"translate":"sg.game.item.mint.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.mint.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
                             ],
                             "item_model": "nc:green_mint",
                             "custom_data": {

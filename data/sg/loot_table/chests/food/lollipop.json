@@ -18,7 +18,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.red_lollipop.name"},
                             "lore":[
-                                {"translate":"sg.game.item.red_lollipop.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.red_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
                             ],
                             "item_model": "nc:red_lollipop",
                             "custom_data": {
@@ -41,7 +42,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.orange_lollipop.name"},
                             "lore":[
-                                {"translate":"sg.game.item.orange_lollipop.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.orange_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
                             ],
                             "item_model": "nc:orange_lollipop",
                             "custom_data": {
@@ -64,7 +66,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.yellow_lollipop.name"},
                             "lore":[
-                                {"translate":"sg.game.item.yellow_lollipop.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.yellow_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
                             ],
                             "item_model": "nc:yellow_lollipop",
                             "custom_data": {
@@ -87,7 +90,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.green_lollipop.name"},
                             "lore":[
-                                {"translate":"sg.game.item.green_lollipop.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.green_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
                             ],
                             "item_model": "nc:green_lollipop",
                             "custom_data": {
@@ -110,7 +114,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.blue_lollipop.name"},
                             "lore":[
-                                {"translate":"sg.game.item.blue_lollipop.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.blue_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
                             ],
                             "item_model": "nc:blue_lollipop",
                             "custom_data": {
@@ -133,7 +138,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.pink_lollipop.name"},
                             "lore":[
-                                {"translate":"sg.game.item.pink_lollipop.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.pink_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
                             ],
                             "item_model": "nc:purple_lollipop",
                             "custom_data": {
@@ -156,7 +162,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.rainbow_lollipop.name"},
                             "lore":[
-                                {"translate":"sg.game.item.rainbow_lollipop.lore1","color":"gray","italic": false,"with":[{"translate":"sg.game.item.rainbow_lollipop.lore2","color":"blue","italic": false},{"translate":"sg.game.item.rainbow_lollipop.lore3","color":"blue","italic": false}]}
+                                {"translate":"sg.game.item.rainbow_lollipop.lore1","color":"gray","italic": false,"with":[{"translate":"sg.game.item.rainbow_lollipop.lore2","color":"blue","italic": false},{"translate":"sg.game.item.rainbow_lollipop.lore3","color":"blue","italic": false}]},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
                             ],
                             "item_model": "nc:rainbow_lollipop",
                             "custom_data": {

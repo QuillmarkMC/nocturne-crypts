@@ -26,6 +26,9 @@
                                     "can_always_eat": false
                                 },
                                 "item_name": {"translate": "sg.game.item.corn.name"},
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE024\uE025\uE025\uE025","color":"white","italic": false}
+                                ],
                                 "item_model": "nc:corn"
                             }
                         }
@@ -53,6 +56,9 @@
                                     "can_always_eat": false
                                 },
                                 "item_name": {"translate": "sg.game.item.caramel_apple.name"},
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE023\uE026","color":"white","italic": false}
+                                ],
                                 "item_model": "nc:caramel_apple"
                             }
                         }
@@ -80,6 +86,9 @@
                                     "can_always_eat": false
                                 },
                                 "item_name": {"translate": "sg.game.item.candy_apple.name"},
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE023\uE026","color":"white","italic": false}
+                                ],
                                 "item_model": "nc:candy_apple"
                             }
                         }
