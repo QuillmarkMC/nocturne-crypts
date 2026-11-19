@@ -1,6 +1,6 @@
 {
     "pack": {
-        "min_format": [101,1],
+        "min_format": [121,0],
         "max_format": [121,0],
         "description": "Datapack for Nocturne Crypts"
     },
@@ -9,20 +9,6 @@
             {
                 "namespace": "minecraft",
                 "path": "advancement/.*"
-            }
-        ]
-    },
-    "overlays": {
-        "entries": [
-            {
-                "directory": "26.1.2",
-                "min_format": [101,1],
-                "max_format": [101,1]
-            },
-            {
-                "directory": "26.2",
-                "min_format": [107,1],
-                "max_format": [107,1]
             }
         ]
     }
