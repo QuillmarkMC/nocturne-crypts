@@ -19,10 +19,8 @@ tag @s remove SGGraceEffects
 #tag @s remove Admin
 function sg:lobby/options/trigger/reset_tags
 scoreboard players reset @s teamID
-scoreboard players reset @s openChest
 scoreboard players reset @s cancel
 scoreboard players reset @s value
-scoreboard players operation @s boilingWater = $DamageInterval boilingWater
 scoreboard players reset @s safetyAlert
 scoreboard players reset @s combatTimer
 
