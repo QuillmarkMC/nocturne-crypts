@@ -1,8 +1,8 @@
 {
     "pack": {
-        "min_format": [88,0],
-        "max_format": [88,0],
-        "description": "Quillmark CORE survival games datapack"
+        "min_format": [121,0],
+        "max_format": [121,0],
+        "description": "Datapack for Nocturne Crypts"
     },
     "filter": {
         "block": [

@@ -1,0 +1,178 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 2,
+                                "saturation": 0.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.red_lollipop.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.red_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:red_lollipop",
+                            "custom_data": {
+                                "red_lollipop": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 2,
+                                "saturation": 0.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.orange_lollipop.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.orange_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:orange_lollipop",
+                            "custom_data": {
+                                "orange_lollipop": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 2,
+                                "saturation": 0.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.yellow_lollipop.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.yellow_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:yellow_lollipop",
+                            "custom_data": {
+                                "yellow_lollipop": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 2,
+                                "saturation": 0.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.green_lollipop.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.green_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:green_lollipop",
+                            "custom_data": {
+                                "green_lollipop": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 2,
+                                "saturation": 0.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.blue_lollipop.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.blue_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:blue_lollipop",
+                            "custom_data": {
+                                "blue_lollipop": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 2,
+                                "saturation": 0.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.pink_lollipop.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.pink_lollipop.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:purple_lollipop",
+                            "custom_data": {
+                                "pink_lollipop": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 50,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 2,
+                                "saturation": 0.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.rainbow_lollipop.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.rainbow_lollipop.lore1","color":"gray","italic": false,"with":[{"translate":"sg.game.item.rainbow_lollipop.lore2","color":"blue","italic": false},{"translate":"sg.game.item.rainbow_lollipop.lore3","color":"blue","italic": false}]},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:rainbow_lollipop",
+                            "custom_data": {
+                                "rainbow_lollipop": true
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 4,
+                                "saturation": 2.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.gummy_worm.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:gummy_worm_1",
+                            "custom_data": {
+                                "gummy_worm": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 4,
+                                "saturation": 2.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.gummy_worm.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:gummy_worm_2",
+                            "custom_data": {
+                                "gummy_worm": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 4,
+                                "saturation": 2.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.gummy_worm.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:gummy_worm_3",
+                            "custom_data": {
+                                "gummy_worm": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 100,
+                    "name": "minecraft:bread",
+                    "modifier": {
+                        "type": "set_components",
+                        "components": {
+                            "food": {
+                                "nutrition": 4,
+                                "saturation": 2.4,
+                                "can_always_eat": true
+                            },
+                            "item_name": {"translate": "sg.game.item.gummy_worm.name"},
+                            "lore":[
+                                {"translate":"sg.game.item.gummy_worm.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE023\uE025","color":"white","italic": false}
+                            ],
+                            "item_model": "nc:gummy_worm_4",
+                            "custom_data": {
+                                "gummy_worm": true
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

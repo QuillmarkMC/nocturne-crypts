@@ -7,6 +7,6 @@ data merge storage sg:music {Soundtracks:\
     {\
         name:"nocturne",\
         lobby_length:2000,\
-        loot_length:9999\
+        loot_length:640\
     }]\
 }
