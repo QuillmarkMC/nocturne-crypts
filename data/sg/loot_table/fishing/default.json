@@ -7,27 +7,102 @@
                 {
                     "type": "minecraft:item",
                     "weight": 50,
-                    "name": "minecraft:cod"
+                    "name": "minecraft:cod",
+                    "modifier": [
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition": 2,
+                                    "saturation":0.4,
+                                    "can_always_eat": false
+                                },
+                                "lore": [
+                                    {"text": "\uE023\uE026","color":"white","italic": false}
+                                ]
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 50,
-                    "name": "minecraft:salmon"
+                    "name": "minecraft:salmon",
+                    "modifier": [
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition": 2,
+                                    "saturation":0.4,
+                                    "can_always_eat": false
+                                },
+                                "lore": [
+                                    {"text": "\uE023\uE026","color":"white","italic": false}
+                                ]
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 10,
-                    "name": "minecraft:pufferfish"
+                    "name": "minecraft:pufferfish",
+                    "modifier": [
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition": 1,
+                                    "saturation":0.2,
+                                    "can_always_eat": true
+                                },
+                                "lore": [
+                                    {"text": "\uE024\uE026","color":"white","italic": false}
+                                ]
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 25,
-                    "name": "minecraft:cooked_cod"
+                    "name": "minecraft:cooked_cod",
+                    "modifier": [
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition": 5,
+                                    "saturation":6,
+                                    "can_always_eat": true
+                                },
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE024\uE025\uE025\uE025","color":"white","italic": false}
+                                ]
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
                     "weight": 25,
-                    "name": "minecraft:cooked_salmon"
+                    "name": "minecraft:cooked_salmon",
+                    "modifier": [
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition": 6,
+                                    "saturation":9.6,
+                                    "can_always_eat": true
+                                },
+                                "lore": [
+                                    {"text": "\uE023\uE023\uE023\uE025\uE025\uE025\uE025\uE025","color":"white","italic": false}
+                                ]
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
@@ -43,7 +118,8 @@
                             },
                             "item_name": {"translate": "sg.game.item.ghost_fish.name"},
                             "lore":[
-                                {"translate":"sg.game.item.ghost_fish.lore","color":"blue","italic": false}
+                                {"translate":"sg.game.item.ghost_fish.lore","color":"blue","italic": false},
+                                {"text": "\uE023\uE026","color":"white","italic": false}
                             ],
                             "item_model": "nc:ghost_fish",
                             "custom_data": {

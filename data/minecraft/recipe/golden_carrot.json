@@ -12,7 +12,12 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:golden_carrot"
+    "id": "minecraft:golden_carrot",
+    "components": {
+      "lore": [
+        {"text": "\uE023\uE023\uE023\uE025\uE025\uE025\uE025\uE025\uE025\uE025\uE026","color":"white","italic": false}
+      ]
+    }
   },
   "show_notification": false
 }

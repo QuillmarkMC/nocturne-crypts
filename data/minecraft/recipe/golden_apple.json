@@ -12,7 +12,12 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:golden_apple"
+    "id": "minecraft:golden_apple",
+    "components": {
+      "lore": [
+        {"text": "\uE023\uE023\uE024\uE024\uE024\uE024\uE024","color":"white","italic": false}
+      ]
+    }
   },
   "show_notification": false
 }
